@@ -26,7 +26,7 @@ echo "Searching for the MYREADME.md file in the local directory: "
 
 ls
 
-echo "The script found the file and it wil start the conversion procedure in a while. Please Standby! "
+echo "The script found the file and it will start the conversion procedure in a while. Please Standby! "
 
 # Here, the program will print a "draft" menu inspired by my colleague @nkanagno (https://github.com/nkanagno) which I thank him.
 
