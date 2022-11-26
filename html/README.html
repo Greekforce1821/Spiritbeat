@@ -320,8 +320,19 @@ Success)</td>
 <tr class="even">
 <td>8</td>
 <td>Άσκηση γραμμής εντολών</td>
-<td></td>
-<td></td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1760">Link
+Συζήτησης</a>, <a
+href="https://github.com/Greekforce1821/Spiritbeat">Spiritbeat
+Repository</a>, <a
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf">Converted
+PDF</a>, <a
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html">Converted
+HTML</a> &amp; <a
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh">Shell
+Script</a></td>
+<td>Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100%
+Success)</td>
 </tr>
 <tr class="odd">
 <td>9</td>
@@ -1194,5 +1205,179 @@ href="https://greekforce1821-site.netlify.app/biography/guido-van-rossum/">Βι�
 <hr />
 <h1 id="παραδοτέο-8ο-command-line-exercise-2">Παραδοτέο 8ο: Command Line
 Exercise #2</h1>
+<p>Στο συγκεκριμένο παραδοτέο καλούμαστε να δημιουργήσουμε ένα δικό μας
+<ins> shell script </ins> το οποίο θα πρέπει να έχει σχέση με τις
+γνώσεις που αποκτήσαμε στα προηγούμενα παραδοτέα (βλέπε: <a
+href="https://github.com/courses-ionio/help/discussions/1586">Παραδοτέο
+6</a> &amp; <a
+href="https://github.com/courses-ionio/help/discussions/1675">Παραδοτέο
+7</a> ). Σύμφωνα με τις <a
+href="https://github.com/epidrome/dokey#hci">οδηγίες</a> του μαθήματος
+έπρεπε να επιλέξουμε και να υλοποιήσουμε μια οποιαδήποτε εργασία. Στην
+προκειμένη περίπτωση, επέλεξα να δημιουργήσω ένα script το οποίο θα
+περιλαμβάνει το <code>pandoc</code> και το <code>texlive</code> (που
+χρησιμοποίησα στο 6ο παραδοτέο για να κατασκευάσω το βιβλίο) για να
+μετατρέψω ένα οποιοδήποτε αρχείο <ins> Markdown </ins> (.md) σε <ins>
+PDF </ins> (.pdf) και σε <ins> HTML </ins> (.html) . Στην συγκεκριμένη
+εργασία, αξιοποίησα ένα μικρό κομμάτι από το script που έγραψε ο
+συμφοιτητής: <a
+href="https://github.com/nkanagno/paradoteo-8/blob/main/file-conversion.sh">Νίκος
+Αναγνωστόπουλος</a> τον οποίο ευχαριστώ πολύ για την συμβολή του!</p>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/204090224-0dece325-9748-4b4c-877a-dec66e5e977c.jpg"
+alt="Screenshot_2022-11-26_14-59-58" />
+<figcaption
+aria-hidden="true">Screenshot_2022-11-26_14-59-58</figcaption>
+</figure>
+<h2 id="βήμα-1-the-creation-of-the-repository">Βήμα #1: <ins> The
+Creation of the Repository </ins></h2>
+<p>Στο συγκεκριμένο βήμα, δημιούργησα ένα <a
+href="https://github.com/Greekforce1821/Spiritbeat">ξεχωριστό
+αποθετήριο</a> στο προφίλ μου στο Github το οποίο το ονομάσα ως:
+<code>Spiritbeat</code>. Στην συνέχεια, δημιούργησα ένα README.md αρχείο
+(κενό για αρχή) και ένα LICENSE.md.</p>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/204089825-6070d546-213f-4dd4-8ff1-0ec6dd0272a8.jpg"
+alt="Screenshot_2022-11-26_14-50-13" />
+<figcaption
+aria-hidden="true">Screenshot_2022-11-26_14-50-13</figcaption>
+</figure>
+<h2 id="bήμα-2-cloning-the-repository-locally">Bήμα #2: <ins> Cloning
+the Repository Locally </ins></h2>
+<p>Στο παραπάνω βήμα, έπρεπε να κάνω clone τοπικά το αποθετήριο με την
+εντολή:
+<code>git clone https://github.com/Greekforce1821/Spiritbeat</code> για
+να μπορέσω να κάνω <code>git push</code> μόλις ολοκληρωθεί το script.
+Στην συνέχεια, δημιούργησα ένα αρχείο <code>make.sh</code> στο
+αποθετήριο τοπικά και ξεκίνησα την υλοποίηση του script.</p>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/204090032-13a898fd-01f9-420c-9558-f8e2be3d8a2c.jpg"
+alt="Screenshot_2022-11-26_14-55-01" />
+<figcaption
+aria-hidden="true">Screenshot_2022-11-26_14-55-01</figcaption>
+</figure>
+<h2 id="βήμα-3-filling-out-the-script-file-with-commands">Βήμα #3: <ins>
+Filling out the Script File With Commands </ins></h2>
+<p>Στο συγκεκριμένο βήμα, έκανα τις απαραίτητες αλλαγές, έσβησα, έγραψα,
+έσβησα και ξαναέγραψα κώδικα στο scriptάκι το οποίο πλέον είναι σε θέση
+να αναζητήσει, να ελέγξει, να επιλέξει και να μετατρέψει με βάση τις
+επιλογές που θα δώσει ο χρήστης στο πρόγραμμα. Συγκεκριμένα, το script
+ψάχνει στο συγκεκριμένο directory όλα τα αρχεία και τα εκτυπώνει στο
+τερμάτικο, στην συνέχεια ζητάει από τον χρήστη να επιλέξει το αρχείο
+(.md) που θέλει να μετατρέψει και στην συνέχεια εμφανίζει μενού με την
+μετατροπή σε (.pdf) &amp; (.html)</p>
+<h2 id="converting-a-markdown-.md-file-into-pdf-.pdf"><ins> Converting a
+markdown (.md) file into PDF (.pdf) </ins></h2>
+<p><a href="https://asciinema.org/a/540266"><img
+src="https://asciinema.org/a/540266.svg" alt="asciicast" /></a></p>
+<h2 id="converting-a-markdown-.md-file-into-html-.html"><ins> Converting
+a markdown (.md) file into HTML (.html) </ins></h2>
+<p><a href="https://asciinema.org/a/540268"><img
+src="https://asciinema.org/a/540268.svg" alt="asciicast" /></a></p>
+<h2 id="βήμα-4-checking-the-results-of-the-conversion-pdf-html">Βήμα #4:
+<ins> Checking the Results of the Conversion (PDF) &amp; (HTML)</h2>
+<p>Στο συγκεκριμένο βήμα, δημιουργήθηκαν από το script δύο φάκελοι, ένας
+με ονομασία: <code>pdf</code> και ένας <code>html</code>. Μόλις
+ολοκληρώθηκε η μετατροπή, δημιουργήθηκε το αρχείο
+<code>MYREADME.pdf</code> στον φάκελο <code>pdf</code> και αντίστοιχα το
+αρχείο <code>MYREADME.html</code> στον φάκελο <code>html</code> και
+τσέκαρα ότι δεν υπήρξαν λάθη κατά την μετατροπή. Παρακάτω, επισυνάπτω
+ένα κομμάτι από το pdf και ένα από το html.</p>
+<h2 id="pdf-results"><ins> PDF Results </ins></h2>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/204090962-7e5f5cac-ded7-45a4-933d-5b7dd1cb8ee3.jpg"
+alt="Screenshot_2022-11-26_15-17-58" />
+<figcaption
+aria-hidden="true">Screenshot_2022-11-26_15-17-58</figcaption>
+</figure>
+<h2 id="html-results"><ins> HTML Results </ins></h2>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/204091043-e0a93935-2c87-4151-b4fc-e3e3bf83b3ca.jpg"
+alt="Screenshot_2022-11-26_15-20-13" />
+<figcaption
+aria-hidden="true">Screenshot_2022-11-26_15-20-13</figcaption>
+</figure>
+<h2
+id="βήμα-5-filling-out-the-readme.md-file-with-useful-information">Βήμα
+#5: <ins> Filling out the README.md File with Useful Information</h2>
+<p>Στο παραπάνω βήμα, απλά, πρόσθεσα κάτι τελευταίες σημειώσεις στο
+README.md αρχείο, σχετικά με τι prerequisites πρέπει να έχει ο χρήστης
+εγκατεστημένα στο σύστημά του προκειμένου να τρέξει το script που
+δημιούργησα.</p>
+<h1 id="πίνακας-των-διάφορων-link-περί-εργασίας">Πίνακας των διάφορων
+link περί εργασίας:</h1>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Links</th>
+<th>Platform</th>
+<th>Extension</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh">Shell
+Script</a></td>
+<td>GitHub</td>
+<td>.sh</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/MYREADME.md">MYREADMEEXAMPLE.md</a></td>
+<td>GitHub</td>
+<td>.md</td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf">Converted
+PDF File</a></td>
+<td>GitHub</td>
+<td>.pdf</td>
+</tr>
+<tr class="even">
+<td><a
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html">Converted
+HTML File</a></td>
+<td>GitHub</td>
+<td>.html</td>
+</tr>
+<tr class="odd">
+<td><a
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/README.md">Guides
+For Users - How To Use</a></td>
+<td>GitHub</td>
+<td>.md</td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/Greekforce1821/Spiritbeat">SpiritBeat
+Shell Script Repository</a></td>
+<td>GitHub</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td><a href="https://asciinema.org/a/540266">PDF Conversion Using
+Terminal</a></td>
+<td>Asciinema</td>
+<td>.cast</td>
+</tr>
+<tr class="even">
+<td><a href="https://asciinema.org/a/540268">HTML Conversion Using
+Terminal</a></td>
+<td>Asciinema</td>
+<td>.cast</td>
+</tr>
+</tbody>
+</table>
 </body>
 </html>

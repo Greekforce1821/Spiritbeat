@@ -30,7 +30,7 @@ Netlify Personal Site Deploy: [Site](https://greekforce1821-site.netlify.app/)
 | 5 | Συμμετοχικό περιεχόμενο A2 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1461), [PR #1](https://github.com/Terminal-Killers/site/pull/1), [PR #2](https://github.com/Terminal-Killers/site/pull/2), [Link of Work #1](https://terminal-killers-site.netlify.app//slides/computers-in-pockets/), [Link of Work #2](https://terminal-killers-site.netlify.app//slides/programming/), [Link of Work #3](https://terminal-killers-site.netlify.app//timeline/computers-in-a-pocket/) & [Link of Work #4](https://terminal-killers-site.netlify.app//timeline/programming-languages/)| Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 6 | Κατασκευή του βιβλίου Α | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1586), [Contribution Point](https://github.com/Greekforce1821/kallipos/blob/master/contribution/skypech08.md), [Contribution Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/Picture-of-my-contribution.jpg), [.EPUB file](https://github.com/Greekforce1821/kallipos/blob/master/epub/book.epub), [.PDF file](https://github.com/Greekforce1821/kallipos/blob/master/book/book.pdf), [Contribution Filter](https://github.com/Greekforce1821/kallipos/blob/master/contribution.lua)  | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 7 | Συμμετοχικό περιεχόμενο B1 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1675), [Link of Case-Study](https://greekforce1821-site.netlify.app///case-study/python/), [Link of Biography](https://greekforce1821-site.netlify.app//biography/guido-van-rossum/), [Site Link](https://greekforce1821-site.netlify.app/) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
-| 8 | Άσκηση γραμμής εντολών | | |
+| 8 | Άσκηση γραμμής εντολών | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1760), [Spiritbeat Repository](https://github.com/Greekforce1821/Spiritbeat), [Converted PDF](https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf), [Converted HTML](https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html) & [Shell Script](https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 9 | Συμμετοχικό περιεχόμενο B2 | | |
 | 10 | Άσκηση γραμμής εντολών | | |
 | 11 | Κατασκευή του βιβλίου Β | | |
@@ -340,6 +340,65 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
 
 
 # Παραδοτέο 8ο: Command Line Exercise #2
+
+Στο συγκεκριμένο παραδοτέο καλούμαστε να δημιουργήσουμε ένα δικό μας <ins> shell script </ins> το οποίο θα πρέπει να έχει σχέση με τις γνώσεις που αποκτήσαμε στα προηγούμενα παραδοτέα (βλέπε: [Παραδοτέο 6](https://github.com/courses-ionio/help/discussions/1586) & [Παραδοτέο 7](https://github.com/courses-ionio/help/discussions/1675) ). Σύμφωνα με τις [οδηγίες](https://github.com/epidrome/dokey#hci) του μαθήματος έπρεπε να επιλέξουμε και να υλοποιήσουμε μια οποιαδήποτε εργασία. Στην προκειμένη περίπτωση, επέλεξα να δημιουργήσω ένα script το οποίο θα περιλαμβάνει το `pandoc` και το `texlive` (που χρησιμοποίησα στο 6ο παραδοτέο για να κατασκευάσω το βιβλίο) για να μετατρέψω ένα οποιοδήποτε αρχείο <ins> Markdown </ins> (.md) σε <ins> PDF </ins>  (.pdf) και σε <ins> HTML </ins> (.html) . Στην συγκεκριμένη εργασία, αξιοποίησα ένα μικρό κομμάτι από το script που έγραψε ο συμφοιτητής: [Νίκος Αναγνωστόπουλος](https://github.com/nkanagno/paradoteo-8/blob/main/file-conversion.sh) τον οποίο ευχαριστώ πολύ για την συμβολή του!
+
+![Screenshot_2022-11-26_14-59-58](https://user-images.githubusercontent.com/33377581/204090224-0dece325-9748-4b4c-877a-dec66e5e977c.jpg)
+
+## Βήμα #1: <ins> The Creation of the Repository </ins>  
+
+Στο συγκεκριμένο βήμα, δημιούργησα ένα [ξεχωριστό αποθετήριο](https://github.com/Greekforce1821/Spiritbeat) στο προφίλ μου στο Github το οποίο το ονομάσα ως: `Spiritbeat`. Στην συνέχεια, δημιούργησα ένα README.md αρχείο (κενό για αρχή) και ένα LICENSE.md.
+
+![Screenshot_2022-11-26_14-50-13](https://user-images.githubusercontent.com/33377581/204089825-6070d546-213f-4dd4-8ff1-0ec6dd0272a8.jpg)
+
+## Bήμα #2: <ins> Cloning the Repository Locally </ins>
+
+Στο παραπάνω βήμα, έπρεπε να κάνω clone τοπικά το αποθετήριο με την εντολή: `git clone https://github.com/Greekforce1821/Spiritbeat` για να μπορέσω να κάνω `git push` μόλις ολοκληρωθεί το script. Στην συνέχεια, δημιούργησα ένα αρχείο `make.sh` στο αποθετήριο τοπικά και ξεκίνησα την υλοποίηση του script.
+
+![Screenshot_2022-11-26_14-55-01](https://user-images.githubusercontent.com/33377581/204090032-13a898fd-01f9-420c-9558-f8e2be3d8a2c.jpg)
+
+## Βήμα #3: <ins> Filling out the Script File With Commands </ins>
+
+Στο συγκεκριμένο βήμα, έκανα τις απαραίτητες αλλαγές, έσβησα, έγραψα, έσβησα και ξαναέγραψα κώδικα στο scriptάκι το οποίο πλέον είναι σε θέση να αναζητήσει, να ελέγξει, να επιλέξει και να μετατρέψει με βάση τις επιλογές που θα δώσει ο χρήστης στο πρόγραμμα. Συγκεκριμένα, το script ψάχνει στο συγκεκριμένο directory όλα τα αρχεία και τα εκτυπώνει στο τερμάτικο, στην συνέχεια ζητάει από τον χρήστη να επιλέξει το αρχείο (.md) που θέλει να μετατρέψει και στην συνέχεια εμφανίζει μενού με την μετατροπή σε (.pdf) & (.html)
+
+## <ins> Converting a markdown (.md) file into PDF (.pdf) </ins>
+
+[![asciicast](https://asciinema.org/a/540266.svg)](https://asciinema.org/a/540266)
+
+## <ins> Converting a markdown (.md) file into HTML (.html) </ins>
+
+[![asciicast](https://asciinema.org/a/540268.svg)](https://asciinema.org/a/540268)
+
+## Βήμα #4: <ins> Checking the Results of the Conversion (PDF) & (HTML)
+  
+Στο συγκεκριμένο βήμα, δημιουργήθηκαν από το script δύο φάκελοι, ένας με ονομασία: `pdf` και ένας `html`. Μόλις ολοκληρώθηκε η μετατροπή, δημιουργήθηκε το αρχείο `MYREADME.pdf` στον φάκελο `pdf` και αντίστοιχα το αρχείο `MYREADME.html` στον φάκελο `html` και τσέκαρα ότι δεν υπήρξαν λάθη κατά την μετατροπή. Παρακάτω, επισυνάπτω ένα κομμάτι από το pdf και ένα από το html.
+
+## <ins> PDF Results </ins>
+  
+![Screenshot_2022-11-26_15-17-58](https://user-images.githubusercontent.com/33377581/204090962-7e5f5cac-ded7-45a4-933d-5b7dd1cb8ee3.jpg)
+
+## <ins> HTML Results </ins>
+
+![Screenshot_2022-11-26_15-20-13](https://user-images.githubusercontent.com/33377581/204091043-e0a93935-2c87-4151-b4fc-e3e3bf83b3ca.jpg)
+
+## Βήμα #5: <ins> Filling out the README.md File with Useful Information
+  
+Στο παραπάνω βήμα, απλά, πρόσθεσα κάτι τελευταίες σημειώσεις στο README.md αρχείο, σχετικά με τι prerequisites πρέπει να έχει ο χρήστης εγκατεστημένα στο σύστημά του προκειμένου να τρέξει το script που δημιούργησα.
+  
+# Πίνακας των διάφορων link περί εργασίας:
+
+| Links | Platform | Extension |
+| --- | --- | --- |
+| [Shell Script](https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh) | GitHub | .sh |
+| [MYREADMEEXAMPLE.md](https://github.com/Greekforce1821/Spiritbeat/blob/main/MYREADME.md) |GitHub | .md |
+| [Converted PDF File](https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf) | GitHub | .pdf |
+| [Converted HTML File](https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html) | GitHub | .html |
+| [Guides For Users - How To Use](https://github.com/Greekforce1821/Spiritbeat/blob/main/README.md) | GitHub | .md |
+| [SpiritBeat Shell Script Repository](https://github.com/Greekforce1821/Spiritbeat) | GitHub | - |
+| [PDF Conversion Using Terminal](https://asciinema.org/a/540266) | Asciinema | .cast |
+| [HTML Conversion Using Terminal](https://asciinema.org/a/540268) | Asciinema | .cast |
+ 
+
 
 
 
