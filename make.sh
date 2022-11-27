@@ -22,6 +22,16 @@ if [ ! -d "./html" ]; then
    mkdir ./html
 fi
 
+if [ ! -d "./docx" ]; then
+   echo "Created a docx directory"
+   mkdir ./docx
+fi
+
+if [ ! -d "./txt" ]; then
+   echo "Created a txt directory"
+   mkdir ./txt
+fi
+
 echo "Searching for the MYREADME.md file in the local directory: "
 
 ls
@@ -40,18 +50,30 @@ then
 
 echo "Select which output you wish the .md file to be converted into:
 a) .pdf
-b) .html"
+b) .html
+c) .txt
+e) .docx"
 read option_two
 
     if [ "$option_two" = "b" ];
     then
-   	echo "Initiating the convertion from .md to .html file. Please Standby!"
+   	echo "Initiating the conversion from .md to .html file. Please Standby!"
         pandoc -s MYREADME.md --metadata title="README" -o README.html
         echo "The convertion was a success, you may open the .html file!"
-    else
+    elif [ "$option_two" = "a" ];
+    then
         echo "Initiating the conversion from .md to .pdf file. Please Standby!"
         pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="DejaVuSansMono" --variable sansfont="DejaVuSansMono" --variable monofont="DejaVuSansMono" --variable fontsize=12pt --variable version=2.0 MYREADME.md  --pdf-engine=xelatex --toc -o MYREADME.pdf
-        echo "The convertion was a success, you may open the .pdf file!"
+        echo "The conversion was a success, you may open the .pdf file!"
+    elif [ "$option_two" = "c" ];
+    then
+        echo "Initiating the conversion from .md to .txt file. Please Standby!"
+        pandoc -f markdown -t plain MYREADME.md -o MYREADME.txt
+        echo "The conversion was a success, you may open the .txt file!"
+    else
+       echo "Initiating the conversion from .md to .docx file. Please Standby!"
+       pandoc -o MYREADME.docx -f markdown -t docx MYREADME.md
+       echo "The conversion was a success, you may open the .docx file!"
     fi
 fi
 
