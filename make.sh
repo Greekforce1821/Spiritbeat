@@ -58,7 +58,7 @@ read option_two
     if [ "$option_two" = "b" ];
     then
    	echo "Initiating the conversion from .md to .html file. Please Standby!"
-        pandoc -s MYREADME.md --metadata title="README" -o README.html
+        pandoc -s MYREADME.md --metadata title="README" -o MYREADME.html
         echo "The convertion was a success, you may open the .html file!"
     elif [ "$option_two" = "a" ];
     then
