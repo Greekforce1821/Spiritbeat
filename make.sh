@@ -37,6 +37,11 @@ if [ ! -d "./odt" ]; then
    mkdir ./odt
 fi
 
+if [ ! -d "./ipynb" ]; then
+   echo "Created an ipynb directory"
+   mkdir ./ipynb
+fi
+
 echo "Searching for the MYREADME.md file in the local directory: "
 
 ls
@@ -58,7 +63,8 @@ a) .pdf
 b) .html
 c) .txt
 d) .docx
-e) .odt"
+e) .odt
+f) .ipynb"
 read option_two
 
     if [ "$option_two" = "b" ];
@@ -81,10 +87,15 @@ read option_two
        echo "Initiating the conversion from .md to .docx file. Please Standby!"
        pandoc -o MYREADME.docx -f markdown -t docx MYREADME.md
        echo "The conversion was a success, you may open the .docx file!"
-    else
+    elif [ "$option_two" = "e" ];
+    then
        echo "Initiating the conversion from .md to .odt file. Please Standby!"
        pandoc MYREADME.md -o MYREADME.odt
        echo "The conversion was a success, you may open the .odt file!"
+    else
+       echo "Initiating the conversion from .md to .ipynb file. Please Standby!"
+       pandoc MYREADME.md -o MYREPORT.ipynb
+       echo "The conversion was a success, you may open the .ipynb file!"
     fi
 fi
 
