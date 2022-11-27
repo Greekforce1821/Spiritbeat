@@ -32,6 +32,11 @@ if [ ! -d "./txt" ]; then
    mkdir ./txt
 fi
 
+if [ ! -d "./odt" ]; then
+   echo "Created an odt directory"
+   mkdir ./odt
+fi
+
 echo "Searching for the MYREADME.md file in the local directory: "
 
 ls
@@ -52,7 +57,8 @@ echo "Select which output you wish the .md file to be converted into:
 a) .pdf
 b) .html
 c) .txt
-e) .docx"
+d) .docx
+e) .odt"
 read option_two
 
     if [ "$option_two" = "b" ];
@@ -70,10 +76,15 @@ read option_two
         echo "Initiating the conversion from .md to .txt file. Please Standby!"
         pandoc -f markdown -t plain MYREADME.md -o MYREADME.txt
         echo "The conversion was a success, you may open the .txt file!"
-    else
+    elif [ "$option_two" = "d" ];
+    then
        echo "Initiating the conversion from .md to .docx file. Please Standby!"
        pandoc -o MYREADME.docx -f markdown -t docx MYREADME.md
        echo "The conversion was a success, you may open the .docx file!"
+    else
+       echo "Initiating the conversion from .md to .odt file. Please Standby!"
+       pandoc MYREADME.md -o MYREADME.odt
+       echo "The conversion was a success, you may open the .odt file!"
     fi
 fi
 
