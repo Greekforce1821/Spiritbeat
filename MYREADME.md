@@ -30,7 +30,7 @@ Netlify Personal Site Deploy: [Site](https://greekforce1821-site.netlify.app/)
 | 5 | Συμμετοχικό περιεχόμενο A2 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1461), [PR #1](https://github.com/Terminal-Killers/site/pull/1), [PR #2](https://github.com/Terminal-Killers/site/pull/2), [Link of Work #1](https://terminal-killers-site.netlify.app//slides/computers-in-pockets/), [Link of Work #2](https://terminal-killers-site.netlify.app//slides/programming/), [Link of Work #3](https://terminal-killers-site.netlify.app//timeline/computers-in-a-pocket/) & [Link of Work #4](https://terminal-killers-site.netlify.app//timeline/programming-languages/)| Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 6 | Κατασκευή του βιβλίου Α | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1586), [Contribution Point](https://github.com/Greekforce1821/kallipos/blob/master/contribution/skypech08.md), [Contribution Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/Picture-of-my-contribution.jpg), [.EPUB file](https://github.com/Greekforce1821/kallipos/blob/master/epub/book.epub), [.PDF file](https://github.com/Greekforce1821/kallipos/blob/master/book/book.pdf), [Contribution Filter](https://github.com/Greekforce1821/kallipos/blob/master/contribution.lua)  | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 7 | Συμμετοχικό περιεχόμενο B1 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1675), [Link of Case-Study](https://greekforce1821-site.netlify.app///case-study/python/), [Link of Biography](https://greekforce1821-site.netlify.app//biography/guido-van-rossum/), [Site Link](https://greekforce1821-site.netlify.app/) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
-| 8 | Άσκηση γραμμής εντολών | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1760), [Spiritbeat Repository](https://github.com/Greekforce1821/Spiritbeat), [Converted PDF](https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf), [Converted HTML](https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html) & [Shell Script](https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
+| 8 | Άσκηση γραμμής εντολών | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1760), [Spiritbeat Repository](https://github.com/Greekforce1821/Spiritbeat), [Converted PDF](https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf), [Converted HTML](https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html), [Shell Script](https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh), [Converted ODT](https://github.com/Greekforce1821/Spiritbeat/blob/main/odt/MYREADME.odt), [Converted TXT](https://github.com/Greekforce1821/Spiritbeat/blob/main/txt/MYREADME.txt), [Converted IPYNB](https://github.com/Greekforce1821/Spiritbeat/blob/main/ipynb/MYREPORT.ipynb) & [Converted DOCX](https://github.com/Greekforce1821/Spiritbeat/blob/main/docx/MYREADME.docx) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 9 | Συμμετοχικό περιεχόμενο B2 | | |
 | 10 | Άσκηση γραμμής εντολών | | |
 | 11 | Κατασκευή του βιβλίου Β | | |
@@ -385,6 +385,42 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
   
 Στο παραπάνω βήμα, απλά, πρόσθεσα κάτι τελευταίες σημειώσεις στο README.md αρχείο, σχετικά με τι prerequisites πρέπει να έχει ο χρήστης εγκατεστημένα στο σύστημά του προκειμένου να τρέξει το script που δημιούργησα.
   
+## Update: <ins> Added Support For (.odt), (.txt), (.ipynb) & (.docx) </ins>
+
+Στο παραπάνω πρόγραμμα, υπήρχαν περιθώρια βελτίωσης τα οποία τα αξιοποίησα προσθέτοντας υποστήριξη για μετατροπή αρχείων `markdown` (.md) σε αρχεία όπως: (.odt), (.txt), (.ipynb) και (.docx). Παρακάτω παραθέτω την μετατροπή του (.md) αρχείο μου (προσωπική αναφορά εργασίας για το HCI) στις παραπάνω μορφές αρχείων.
+
+## <ins> Converting a markdown (.md) file into ODT (.odt) </ins>
+
+[![asciicast](https://asciinema.org/a/540846.svg)](https://asciinema.org/a/540846)
+  
+## <ins> ODT (.odt) Results: </ins>
+  
+![Screenshot_2022-11-28_02-13-21](https://user-images.githubusercontent.com/33377581/204167590-bf2fedb4-b732-404a-8ff7-333b028d332e.jpg) 
+
+## <ins> Converting a markdown (.md) file into TXT (.txt) </ins>
+
+[![asciicast](https://asciinema.org/a/540844.svg)](https://asciinema.org/a/540844)
+  
+## <ins> TXT (.txt) Results: </ins>
+  
+![Screenshot_2022-11-28_02-10-33](https://user-images.githubusercontent.com/33377581/204167462-a49f7d99-857b-4df3-bc5e-990a4cc66fc5.jpg)
+
+## <ins> Converting a markdown (.md) file into IPYNB (.ipynb) </ins>
+
+[![asciicast](https://asciinema.org/a/540847.svg)](https://asciinema.org/a/540847)
+  
+## <ins> IPYNB (.ipynb) Results: </ins>
+  
+![Screenshot_2022-11-28_02-08-49](https://user-images.githubusercontent.com/33377581/204167352-a3aeaeea-d533-4257-8659-ff8684248ac2.jpg)
+
+## <ins> Converting a markdown (.md) file into DOCX (.docx) </ins>
+
+[![asciicast](https://asciinema.org/a/540845.svg)](https://asciinema.org/a/540845)
+  
+## <ins> DOCX (.docx) Results: </ins>
+  
+![Screenshot_2022-11-28_02-07-03](https://user-images.githubusercontent.com/33377581/204167251-b8f5d614-987b-4142-8ea4-84eba0cac384.jpg)
+
 # Πίνακας των διάφορων link περί εργασίας:
 
 | Links | Platform | Extension |
@@ -397,6 +433,14 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
 | [SpiritBeat Shell Script Repository](https://github.com/Greekforce1821/Spiritbeat) | GitHub | - |
 | [PDF Conversion Using Terminal](https://asciinema.org/a/540266) | Asciinema | .cast |
 | [HTML Conversion Using Terminal](https://asciinema.org/a/540268) | Asciinema | .cast |
+| [Converted ODT File](https://github.com/Greekforce1821/Spiritbeat/blob/main/odt/MYREADME.odt) | GitHub | .odt|
+| [Converted TXT File](https://github.com/Greekforce1821/Spiritbeat/blob/main/txt/MYREADME.txt) | GitHub | .txt |
+| [Converted IPYNB File](https://github.com/Greekforce1821/Spiritbeat/blob/main/ipynb/MYREPORT.ipynb) | GitHub| .ipynb |
+| [Converted DOCX File](https://github.com/Greekforce1821/Spiritbeat/blob/main/docx/MYREADME.docx) | GitHub | .docx |
+| [ODT Conversion Using Terminal](https://asciinema.org/a/540846) | Asciinema | .cast |
+| [TXT Conversion Using Terminal](https://asciinema.org/a/540844) | Asciinema | .cast |
+| [IPYNB Conversion Using Terminal](https://asciinema.org/a/540847) | Asciinema | .cast |
+| [DOCX Conversion Using Terminal](https://asciinema.org/a/540845) | Asciinema | .cast |
  
 
 

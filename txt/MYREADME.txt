@@ -96,8 +96,12 @@ Netlify Personal Site Deploy: Site
                     εντολών           Spiritbeat        ολοκλήρωση του
                                       Repository,       παραδοτέου εντός
                                       Converted PDF,    προθεσμίας ☑️
-                                      Converted HTML &  (100% Success)
-                                      Shell Script      
+                                      Converted HTML,   (100% Success)
+                                      Shell Script,     
+                                      Converted ODT,    
+                                      Converted TXT,    
+                                      Converted IPYNB & 
+                                      Converted DOCX    
 
   9                 Συμμετοχικό                         
                     περιεχόμενο B2                      
@@ -759,6 +763,46 @@ README.md αρχείο, σχετικά με τι prerequisites πρέπει να
 εγκατεστημένα στο σύστημά του προκειμένου να τρέξει το script που
 δημιούργησα.
 
+Update:  Added Support For (.odt), (.txt), (.ipynb) & (.docx) 
+
+Στο παραπάνω πρόγραμμα, υπήρχαν περιθώρια βελτίωσης τα οποία τα
+αξιοποίησα προσθέτοντας υποστήριξη για μετατροπή αρχείων markdown (.md)
+σε αρχεία όπως: (.odt), (.txt), (.ipynb) και (.docx). Παρακάτω παραθέτω
+την μετατροπή του (.md) αρχείο μου (προσωπική αναφορά εργασίας για το
+HCI) στις παραπάνω μορφές αρχείων.
+
+ Converting a markdown (.md) file into ODT (.odt) 
+
+[asciicast]
+
+ ODT (.odt) Results: 
+
+[Screenshot_2022-11-28_02-13-21]
+
+ Converting a markdown (.md) file into TXT (.txt) 
+
+[asciicast]
+
+ TXT (.txt) Results: 
+
+[Screenshot_2022-11-28_02-10-33]
+
+ Converting a markdown (.md) file into IPYNB (.ipynb) 
+
+[asciicast]
+
+ IPYNB (.ipynb) Results: 
+
+[Screenshot_2022-11-28_02-08-49]
+
+ Converting a markdown (.md) file into DOCX (.docx) 
+
+[asciicast]
+
+ DOCX (.docx) Results: 
+
+[Screenshot_2022-11-28_02-07-03]
+
 Πίνακας των διάφορων link περί εργασίας:
 
   -----------------------------------------------------------------------
@@ -782,5 +826,25 @@ README.md αρχείο, σχετικά με τι prerequisites πρέπει να
   Terminal                                        
 
   HTML Conversion Using   Asciinema               .cast
+  Terminal                                        
+
+  Converted ODT File      GitHub                  .odt
+
+  Converted TXT File      GitHub                  .txt
+
+  Converted IPYNB File    GitHub                  .ipynb
+
+  Converted DOCX File     GitHub                  .docx
+
+  ODT Conversion Using    Asciinema               .cast
+  Terminal                                        
+
+  TXT Conversion Using    Asciinema               .cast
+  Terminal                                        
+
+  IPYNB Conversion Using  Asciinema               .cast
+  Terminal                                        
+
+  DOCX Conversion Using   Asciinema               .cast
   Terminal                                        
   -----------------------------------------------------------------------
