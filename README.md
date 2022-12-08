@@ -19,6 +19,8 @@ Must have installed on your computer:
 * First, clone the repository in your local machine with the following command: `git clone https://github.com/Greekforce1821/Spiritbeat`
 * Remove the files that are located in the pdf and html directories and the `MYREADME.md` file.
 * Download and place your .md file that you wish to convert in the right directory: `/home/your-username/Spiritbeat/`
+* Download the specified font that the script uses [DejaVu Fonts Family](https://www.fontsquirrel.com/fonts/dejavu-sans)
+* Make a hidden directory in your /home/your-username/ directory with the following command: `mkdir /.fonts`
 * Open a terminal window and change directory via this command: `cd /home/your-username/Spiritbeat/`
 * Run the following command: `./make.sh` for the script to start.
 
