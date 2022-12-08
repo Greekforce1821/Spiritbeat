@@ -32,7 +32,7 @@ Netlify Personal Site Deploy: [Site](https://greekforce1821-site.netlify.app/)
 | 7 | Συμμετοχικό περιεχόμενο B1 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1675), [Link of Case-Study](https://greekforce1821-site.netlify.app///case-study/python/) & [Site Link](https://greekforce1821-site.netlify.app/) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 8 | Άσκηση γραμμής εντολών | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1760), [Spiritbeat Repository](https://github.com/Greekforce1821/Spiritbeat), [Converted PDF](https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf), [Converted HTML](https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html), [Shell Script](https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh), [Converted ODT](https://github.com/Greekforce1821/Spiritbeat/blob/main/odt/MYREADME.odt), [Converted TXT](https://github.com/Greekforce1821/Spiritbeat/blob/main/txt/MYREADME.txt), [Converted IPYNB](https://github.com/Greekforce1821/Spiritbeat/blob/main/ipynb/MYREPORT.ipynb) & [Converted DOCX](https://github.com/Greekforce1821/Spiritbeat/blob/main/docx/MYREADME.docx) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 9 | Συμμετοχικό περιεχόμενο B2 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1817), [Link of Biography](https://greekforce1821-site.netlify.app//biography/guido-van-rossum/) & [Site Link](https://greekforce1821-site.netlify.app/)   | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
-| 10 | Άσκηση γραμμής εντολών | | |
+| 10 | Άσκηση γραμμής εντολών | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1880) & [Asciinema Link](https://asciinema.org/a/544020) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 11 | Κατασκευή του βιβλίου Β | | |
 | 12 | Τελική αναφορά* | | |
 
@@ -457,3 +457,11 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
 ---
 
 # Παραδοτέο 10: Command Line Exercise #3
+  
+Στο συγκεκριμένο παραδοτέο, καλούμαστε να συνεχίσουμε την: `Άσκηση Γραμμής εντολών` σύμφωνα με τις [οδηγίες](https://github.com/courses-ionio/hci/discussions/1839) του μαθήματος. Μιας και στην προηγούμενη άσκηση γραμμής εντολών υλοποίησα ένα script το οποίο δέχεται σαν είσοδο ένα οποιοδήποτε (.md) αρχείο και το μετατρέπει σε διάφορες μορφές όπως (.docx, .pdf, .html κα.). Επομένως, σε αυτήν την άσκηση επέλεξα να ασχοληθώ με το <ins> groff </ins> & το <ins> SpaceVim </ins> . Εγκατέστησα τα ανωτέρω μέσω τερματικού και, με την εντολή: `groff > hcireport1` στο τερματικό, πρόσθεσα το κείμενο της αναφοράς μου (με πολύ λιγότερες λεπτομέρειες), δημιουργήθηκε το αρχείο `hcireport1` και το έλεγξα με την εντολή: `vim hci1report1`. Παρακάτω παραθέτω το βίντεο υλοποίησης της αναφοράς μέσω της πλατφόρμας asciinema. Η άσκηση του groff, ήταν έμπνευση από του χρήστη @p18balt, το οποίο ευχαριστώ!
+
+  ## <ins> GROFF and SpaceVim Overview: </ins>
+
+[![asciicast](https://asciinema.org/a/544020.svg)](https://asciinema.org/a/544020)
+
+# Παραδοτέο 11: Κατασκευή του Βιβλίου #2 
