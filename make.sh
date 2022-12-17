@@ -91,7 +91,7 @@ or type any other key to exit: "
           pandoc "${FILE_NAME}" -o ipynb/"${FILE_NAME/.md/}".ipynb
         elif [ "$option_two" = "g" ];
         then
-          echo "Initiating the conversion of the .md file to all the above formats. Please Standby!"
+          echo "Initiating the conversion of the .md file to all of the above formats. Please Standby!"
           pandoc -s "${FILE_NAME}" --metadata title="README" -o html/"${FILE_NAME/.md/}".html
           pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="DejaVuSansMono" \
             --variable sansfont="DejaVuSansMono" --variable monofont="DejaVuSansMono" \
