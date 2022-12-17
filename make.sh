@@ -10,7 +10,7 @@
 ###the command: ./make.sh in order to start the automated procedure.##############################
 ##################################################################################################
 #
-# Starting the Procedure:
+# Starting the Procedure: 
 
 if [ ! -d "./pdf" ]; then
   echo "Created a pdf directory"
@@ -77,6 +77,7 @@ do
   d) .docx
   e) .odt
   f) .ipynb
+  g) all of the above formats
 or type any other key to exit: "
   read option_two
 
@@ -128,6 +129,22 @@ or type any other key to exit: "
           echo "Initiating the conversion from .md to .ipynb file. Please Standby!"
           pandoc "${FILE_NAME}" -o ipynb/"${FILE_NAME/.md/}".ipynb
           echo "The conversion was a success, you may open the .ipynb file!"
+          echo
+          echo -n "Press ENTER to continue..."
+          read
+        elif [ "$option_two" = "g" ];
+        then
+          echo "Initiating the conversion of the .md file to all the above formats. Please Standby!"
+          pandoc -s "${FILE_NAME}" --metadata title="README" -o html/"${FILE_NAME/.md/}".html
+	  pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="DejaVuSansMono" \
+          --variable sansfont="DejaVuSansMono" --variable monofont="DejaVuSansMono" \
+          --variable fontsize=12pt --variable version=2.0 "${FILE_NAME}" \
+          --pdf-engine=xelatex --toc -o pdf/"${FILE_NAME/.md/}".pdf
+          pandoc -f markdown -t plain "${FILE_NAME}" -o txt/"${FILE_NAME/.md/}".txt
+          pandoc "${FILE_NAME}" -f markdown -t docx -o docx/"${FILE_NAME/.md/}".docx
+	  pandoc "${FILE_NAME}" -o odt/"${FILE_NAME/.md/}".odt
+          pandoc "${FILE_NAME}" -o ipynb/"${FILE_NAME/.md/}".ipynb
+          echo "The conversion was a success, you may open the converted files!"
           echo
           echo -n "Press ENTER to continue..."
           read
