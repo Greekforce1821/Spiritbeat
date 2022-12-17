@@ -261,7 +261,8 @@ Success)</td>
 <td>Άσκηση γραμμής εντολών (warm up cli)</td>
 <td><a
 href="https://github.com/courses-ionio/help/discussions/1290">Link
-Συζήτησης</a></td>
+Συζήτησης</a> &amp; <a href="https://asciinema.org/a/532242">Asciinema
+Link</a></td>
 <td>Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100%
 Success)</td>
 </tr>
@@ -365,8 +366,19 @@ Success)</td>
 <tr class="odd">
 <td>11</td>
 <td>Κατασκευή του βιβλίου Β</td>
-<td></td>
-<td></td>
+<td><a
+href="https://github.com/courses-ionio/help/discussions/1960">Link
+Συζήτησης</a>, <a
+href="https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20bio.jpg">Case-Study
+Book &amp; Bio Book Photo</a>, <a
+href="https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20odroid%20cs.jpg">Case-Study
+Photo</a>, <a
+href="https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/van-rossum-bio.jpg">Biography
+Photo</a> &amp; <a
+href="https://github.com/Greekforce1821/kallipos/tree/master/epub">.epub
+File</a></td>
+<td>Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100%
+Success)</td>
 </tr>
 <tr class="even">
 <td>12</td>
@@ -1336,7 +1348,7 @@ PDF File</a></td>
 </tr>
 <tr class="even">
 <td><a
-href="https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html">Converted
+href="https://github.com/Greekforce1821/Spiritbeat/blob/main/html">Converted
 HTML File</a></td>
 <td>GitHub</td>
 <td>.html</td>
@@ -1563,10 +1575,101 @@ groff </ins> &amp; το <ins> SpaceVim </ins> . Εγκατέστησα τα αν
 βίντεο υλοποίησης της αναφοράς μέσω της πλατφόρμας asciinema. Η άσκηση
 του groff, ήταν έμπνευση από του χρήστη <span class="citation"
 data-cites="p18balt">@p18balt</span>, το οποίο ευχαριστώ!</p>
-<p>## <ins> GROFF and SpaceVim Overview: </ins></p>
+<h2 id="groff-and-spacevim-overview"><ins> GROFF and SpaceVim Overview:
+</ins></h2>
 <p><a href="https://asciinema.org/a/544020"><img
 src="https://asciinema.org/a/544020.svg" alt="asciicast" /></a></p>
 <h1 id="παραδοτέο-11-κατασκευή-του-βιβλίου-2">Παραδοτέο 11: Κατασκευή
 του Βιβλίου #2</h1>
+<p>Στο συγκεκριμένο παραδοτέο, καλούμαστε να συνεχίσουμε την:
+<code>Κατασκευή του Βιβλίου #2</code> σύμφωνα πάντα με τις <a
+href="https://github.com/courses-ionio/hci/discussions/1840">οδηγίες</a>
+του μαθήματος. Δηλαδή, να μετατρέψουμε το βιβλίο σε μορφή (.epub), να
+προσθέσουμε στα κεφάλαια την νέα μελέτη περίπτωσης και τέλος την νέα
+βιογραφία που δημιουργήσαμε στο <a
+href="https://github.com/courses-ionio/help/discussions/1817">παραδοτέο
+9</a>. Περισσότερες λεπτομέρειες στην επόμενη παράγραφο.</p>
+<h2 id="an-overview-of-the-book"><ins> An Overview of the Book:
+</ins></h2>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/208163083-d7553414-740a-4f14-9d14-7366680b4b01.jpg"
+alt="Screenshot_2022-12-16_20-16-43" />
+<figcaption
+aria-hidden="true">Screenshot_2022-12-16_20-16-43</figcaption>
+</figure>
+<h2 id="editing-the-shell-script"><ins> Editing the Shell Script:
+</ins></h2>
+<p>Στο συγκεκριμένο κομμάτι της εργασίας, προκειμένου να μετατρέψω το
+βιβλίο σε (.epub) μορφή, έπρεπε να επεξεργαστώ περαιτέρω το <a
+href="https://github.com/Greekforce1821/kallipos/blob/master/make-latex.sh">script</a>.
+Συγκεκριμένα, πρόσθεσα να δημιουργήσει αυτόματα ένα directory για το
+<code>.epub</code> αρχείο με όνομα: <code>epub</code> και στην συνέχεια
+μέσω της εντολής:
+<code>pandoc --quiet -f latex tex/book.tex -o epub/book.epub</code> να
+δημιουργηθεί το αρχείο <code>book.epub</code> στο παραπάνω
+directory.</p>
+<h2 id="epub-directory"><ins> EPUB Directory: </ins></h2>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/208165206-760758cb-fd82-485c-958d-dfaf3eb9ee71.jpg"
+alt="Screenshot_2022-12-16_20-25-39" />
+<figcaption
+aria-hidden="true">Screenshot_2022-12-16_20-25-39</figcaption>
+</figure>
+<h2 id="modified-shell-script"><ins> Modified Shell Script: </ins></h2>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/208165461-8c4dc3a4-e227-429f-9ca5-d0e3e6fe46ce.jpg"
+alt="Screenshot_2022-12-16_20-26-14" />
+<figcaption
+aria-hidden="true">Screenshot_2022-12-16_20-26-14</figcaption>
+</figure>
+<h2 id="case-study-from-within-the-book"><ins> Case-Study From Within
+The Book: </ins></h2>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/208165668-50b3d951-1384-42ab-824a-b41f9afd2f20.jpg"
+alt="python odroid cs" />
+<figcaption aria-hidden="true">python odroid cs</figcaption>
+</figure>
+<h2 id="biography-from-within-the-book"><ins> Biography From Within The
+Book: </ins></h2>
+<figure>
+<img
+src="https://user-images.githubusercontent.com/33377581/208165793-6b6a87b3-7535-4bdd-a3f4-54a7454f9840.jpg"
+alt="van-rossum-bio" />
+<figcaption aria-hidden="true">van-rossum-bio</figcaption>
+</figure>
+<h1
+id="παρακάτω-παραθέτω-τα-link-από-το-κάθε-ένα-αρχείο-μαζί-με-τις-φωτογραφίες-που-το-συνοδεύουν-4">Παρακάτω,
+παραθέτω τα link από το κάθε ένα αρχείο μαζί με τις φωτογραφίες που το
+συνοδεύουν:</h1>
+<ul>
+<li>Link από το προσωπικό αποθετήριο του Κάλλιπου: <a
+href="https://github.com/Greekforce1821/kallipos">Kallipos
+Repository</a></li>
+<li>Link από το βιβλίο σε μορφή (.pdf): <a
+href="https://github.com/Greekforce1821/kallipos/blob/master/book/">PDF
+Book</a></li>
+<li>Link από το βιβλίο σε μορφή (.epub): <a
+href="https://github.com/Greekforce1821/kallipos/tree/master/epub">EPUB
+Book</a></li>
+<li>Link από το shell script: <a
+href="https://github.com/Greekforce1821/kallipos/blob/master/make-latex.sh">Shell
+Script</a></li>
+<li>Φωτογραφία από τα κεφάλαια του βιβλίου με τις προσωπικές προσθήκες:
+<a
+href="https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20bio.jpg">Personal
+Chapters of The Book</a></li>
+<li>Φωτογραφία από την νέα μελέτη περίπτωσης εντός του βιβλίου: <a
+href="https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20odroid%20cs.jpg">CS
+From Within The Book</a></li>
+<li>Φωτογραφία από την νέα βιογραφία εντός του βιβλίου: <a
+href="https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/van-rossum-bio.jpg">Bio
+From Within The Book</a></li>
+</ul>
+<hr />
+<h1 id="παραδοτέο-12-τελική-αναφορά">Παραδοτέο 12: Τελική Αναφορά</h1>
 </body>
 </html>

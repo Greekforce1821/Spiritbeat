@@ -26,14 +26,14 @@ Netlify Personal Site Deploy: [Site](https://greekforce1821-site.netlify.app/)
 | 1 |  [Δημιουργία ομάδας](https://github.com/courses-ionio/hci/discussions/1794) + [Φορκ και δημιουργία σελίδας τελικής αναφοράς](https://courses-ionio.github.io/help/guide/), [προσθήκη πίνακα περιεχομένων](https://raw.githubusercontent.com/courses-ionio/hci/master/README.md), [συγγραφή της εισαγωγής](https://courses-ionio.github.io/help/intro/), αποστολή της εισαγωγής [για σχολιασμό στην συζήτηση](https://github.com/courses-ionio/help/discussions/categories/show-and-tell) και καταγραφή του συνδέσμου συζήτησης δίπλα --> |[Συζήτηση](https://github.com/courses-ionio/help/discussions/830), [Link της ομάδας](https://github.com/Terminal-Killers), [Μέλη της ομάδας](https://github.com/courses-ionio/hci/discussions/1794#discussioncomment-3815476) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success)|
 | 2 | Άσκηση γραμμής εντολών (linux install) | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1021) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 3 | Συμμετοχικό περιεχόμενο A1 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1185), [PR #1](https://github.com/Terminal-Killers/_gallery/pull/1), [PR #2](https://github.com/Terminal-Killers/images/pull/1), [Organization Base Site](https://terminal-killers-site.netlify.app/), [Link of Work #1](https://terminal-killers-site.netlify.app//gallery/python/) & [Link of Work #2](https://terminal-killers-site.netlify.app//gallery/odroid-c4/) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success)|
-| 4 | Άσκηση γραμμής εντολών (warm up cli) | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1290) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
+| 4 | Άσκηση γραμμής εντολών (warm up cli) | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1290) & [Asciinema Link](https://asciinema.org/a/532242) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 5 | Συμμετοχικό περιεχόμενο A2 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1461), [PR #1](https://github.com/Terminal-Killers/site/pull/1), [PR #2](https://github.com/Terminal-Killers/site/pull/2), [Link of Work #1](https://terminal-killers-site.netlify.app//slides/computers-in-pockets/), [Link of Work #2](https://terminal-killers-site.netlify.app//slides/programming/), [Link of Work #3](https://terminal-killers-site.netlify.app//timeline/computers-in-a-pocket/) & [Link of Work #4](https://terminal-killers-site.netlify.app//timeline/programming-languages/)| Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 6 | Κατασκευή του βιβλίου Α | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1586), [Contribution Point](https://github.com/Greekforce1821/kallipos/blob/master/contribution/skypech08.md), [Contribution Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/Picture-of-my-contribution.jpg), [.EPUB file](https://github.com/Greekforce1821/kallipos/blob/master/epub/book.epub), [.PDF file](https://github.com/Greekforce1821/kallipos/blob/master/book/book.pdf), [Contribution Filter](https://github.com/Greekforce1821/kallipos/blob/master/contribution.lua)  | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 7 | Συμμετοχικό περιεχόμενο B1 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1675), [Link of Case-Study](https://greekforce1821-site.netlify.app///case-study/python/) & [Site Link](https://greekforce1821-site.netlify.app/) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 8 | Άσκηση γραμμής εντολών | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1760), [Spiritbeat Repository](https://github.com/Greekforce1821/Spiritbeat), [Converted PDF](https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf), [Converted HTML](https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html), [Shell Script](https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh), [Converted ODT](https://github.com/Greekforce1821/Spiritbeat/blob/main/odt/MYREADME.odt), [Converted TXT](https://github.com/Greekforce1821/Spiritbeat/blob/main/txt/MYREADME.txt), [Converted IPYNB](https://github.com/Greekforce1821/Spiritbeat/blob/main/ipynb/MYREPORT.ipynb) & [Converted DOCX](https://github.com/Greekforce1821/Spiritbeat/blob/main/docx/MYREADME.docx) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 9 | Συμμετοχικό περιεχόμενο B2 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1817), [Link of Biography](https://greekforce1821-site.netlify.app//biography/guido-van-rossum/) & [Site Link](https://greekforce1821-site.netlify.app/)   | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 10 | Άσκηση γραμμής εντολών | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1880) & [Asciinema Link](https://asciinema.org/a/544020) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
-| 11 | Κατασκευή του βιβλίου Β | | |
+| 11 | Κατασκευή του βιβλίου Β | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1960), [Case-Study Book & Bio Book Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20bio.jpg), [Case-Study Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20odroid%20cs.jpg), [Biography Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/van-rossum-bio.jpg) & [.epub File](https://github.com/Greekforce1821/kallipos/tree/master/epub) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 12 | Τελική αναφορά* | | |
 
 # Παραδοτέο 1ο / Εισαγωγή:
@@ -406,7 +406,7 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
 | [Shell Script](https://github.com/Greekforce1821/Spiritbeat/blob/main/make.sh) | GitHub | .sh |
 | [MYREADMEEXAMPLE.md](https://github.com/Greekforce1821/Spiritbeat/blob/main/MYREADME.md) |GitHub | .md |
 | [Converted PDF File](https://github.com/Greekforce1821/Spiritbeat/blob/main/pdf/MYREADME.pdf) | GitHub | .pdf |
-| [Converted HTML File](https://github.com/Greekforce1821/Spiritbeat/blob/main/html/README.html) | GitHub | .html |
+| [Converted HTML File](https://github.com/Greekforce1821/Spiritbeat/blob/main/html) | GitHub | .html |
 | [Guides For Users - How To Use](https://github.com/Greekforce1821/Spiritbeat/blob/main/README.md) | GitHub | .md |
 | [SpiritBeat Shell Script Repository](https://github.com/Greekforce1821/Spiritbeat) | GitHub | - |
 | [PDF Conversion Using Terminal](https://asciinema.org/a/540266) | Asciinema | .cast |
@@ -460,8 +460,48 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
   
 Στο συγκεκριμένο παραδοτέο, καλούμαστε να συνεχίσουμε την: `Άσκηση Γραμμής εντολών` σύμφωνα με τις [οδηγίες](https://github.com/courses-ionio/hci/discussions/1839) του μαθήματος. Μιας και στην προηγούμενη άσκηση γραμμής εντολών υλοποίησα ένα script το οποίο δέχεται σαν είσοδο ένα οποιοδήποτε (.md) αρχείο και το μετατρέπει σε διάφορες μορφές όπως (.docx, .pdf, .html κα.). Επομένως, σε αυτήν την άσκηση επέλεξα να ασχοληθώ με το <ins> groff </ins> & το <ins> SpaceVim </ins> . Εγκατέστησα τα ανωτέρω μέσω τερματικού και, με την εντολή: `groff > hcireport1` στο τερματικό, πρόσθεσα το κείμενο της αναφοράς μου (με πολύ λιγότερες λεπτομέρειες), δημιουργήθηκε το αρχείο `hcireport1` και το έλεγξα με την εντολή: `vim hci1report1`. Παρακάτω παραθέτω το βίντεο υλοποίησης της αναφοράς μέσω της πλατφόρμας asciinema. Η άσκηση του groff, ήταν έμπνευση από του χρήστη @p18balt, το οποίο ευχαριστώ!
 
-  ## <ins> GROFF and SpaceVim Overview: </ins>
+## <ins> GROFF and SpaceVim Overview: </ins>
 
 [![asciicast](https://asciinema.org/a/544020.svg)](https://asciinema.org/a/544020)
 
 # Παραδοτέο 11: Κατασκευή του Βιβλίου #2 
+  
+Στο συγκεκριμένο παραδοτέο, καλούμαστε να συνεχίσουμε την: `Κατασκευή του Βιβλίου #2` σύμφωνα πάντα με τις [οδηγίες](https://github.com/courses-ionio/hci/discussions/1840) του μαθήματος. Δηλαδή, να μετατρέψουμε το βιβλίο σε μορφή (.epub), να προσθέσουμε στα κεφάλαια την νέα μελέτη περίπτωσης και τέλος την νέα βιογραφία που δημιουργήσαμε στο [παραδοτέο 9](https://github.com/courses-ionio/help/discussions/1817). Περισσότερες λεπτομέρειες στην επόμενη παράγραφο.
+
+## <ins> An Overview of the Book: </ins>
+
+![Screenshot_2022-12-16_20-16-43](https://user-images.githubusercontent.com/33377581/208163083-d7553414-740a-4f14-9d14-7366680b4b01.jpg)
+  
+## <ins> Editing the Shell Script: </ins>
+
+Στο συγκεκριμένο κομμάτι της εργασίας, προκειμένου να μετατρέψω το βιβλίο σε (.epub) μορφή, έπρεπε να επεξεργαστώ περαιτέρω το [script](https://github.com/Greekforce1821/kallipos/blob/master/make-latex.sh). Συγκεκριμένα, πρόσθεσα να δημιουργήσει αυτόματα ένα directory για το `.epub` αρχείο με όνομα: `epub` και στην συνέχεια μέσω της εντολής: `pandoc --quiet -f latex tex/book.tex -o epub/book.epub` να δημιουργηθεί το αρχείο `book.epub` στο παραπάνω directory.
+
+## <ins> EPUB Directory: </ins>
+  
+![Screenshot_2022-12-16_20-25-39](https://user-images.githubusercontent.com/33377581/208165206-760758cb-fd82-485c-958d-dfaf3eb9ee71.jpg)
+  
+## <ins> Modified Shell Script: </ins>
+  
+![Screenshot_2022-12-16_20-26-14](https://user-images.githubusercontent.com/33377581/208165461-8c4dc3a4-e227-429f-9ca5-d0e3e6fe46ce.jpg)
+  
+## <ins> Case-Study From Within The Book: </ins>
+  
+![python   odroid cs](https://user-images.githubusercontent.com/33377581/208165668-50b3d951-1384-42ab-824a-b41f9afd2f20.jpg)
+
+## <ins> Biography From Within The Book: </ins>
+  
+![van-rossum-bio](https://user-images.githubusercontent.com/33377581/208165793-6b6a87b3-7535-4bdd-a3f4-54a7454f9840.jpg)
+  
+# Παρακάτω, παραθέτω τα link από το κάθε ένα αρχείο μαζί με τις φωτογραφίες που το συνοδεύουν:
+ 
+* Link από το προσωπικό αποθετήριο του Κάλλιπου: [Kallipos Repository](https://github.com/Greekforce1821/kallipos)
+* Link από το βιβλίο σε μορφή (.pdf): [PDF Book](https://github.com/Greekforce1821/kallipos/blob/master/book/)
+* Link από το βιβλίο σε μορφή (.epub): [EPUB Book](https://github.com/Greekforce1821/kallipos/tree/master/epub)
+* Link από το shell script: [Shell Script](https://github.com/Greekforce1821/kallipos/blob/master/make-latex.sh)
+* Φωτογραφία από τα κεφάλαια του βιβλίου με τις προσωπικές προσθήκες: [Personal Chapters of The Book](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20bio.jpg)
+* Φωτογραφία από την νέα μελέτη περίπτωσης εντός του βιβλίου: [CS From Within The Book](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20odroid%20cs.jpg)
+* Φωτογραφία από την νέα βιογραφία εντός του βιβλίου: [Bio From Within The Book](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/van-rossum-bio.jpg)
+
+---
+
+# Παραδοτέο 12: Τελική Αναφορά

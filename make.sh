@@ -13,92 +13,130 @@
 # Starting the Procedure:
 
 if [ ! -d "./pdf" ]; then
-   echo "Created a pdf directory"
-   mkdir ./pdf
+  echo "Created a pdf directory"
+  mkdir ./pdf
 fi
 
 if [ ! -d "./html" ]; then
-   echo "Created an html directory"
-   mkdir ./html
+  echo "Created an html directory"
+  mkdir ./html
 fi
 
 if [ ! -d "./docx" ]; then
-   echo "Created a docx directory"
-   mkdir ./docx
+  echo "Created a docx directory"
+  mkdir ./docx
 fi
 
 if [ ! -d "./txt" ]; then
-   echo "Created a txt directory"
-   mkdir ./txt
+  echo "Created a txt directory"
+  mkdir ./txt
 fi
 
 if [ ! -d "./odt" ]; then
-   echo "Created an odt directory"
-   mkdir ./odt
+  echo "Created an odt directory"
+  mkdir ./odt
 fi
 
 if [ ! -d "./ipynb" ]; then
-   echo "Created an ipynb directory"
-   mkdir ./ipynb
+  echo "Created an ipynb directory"
+  mkdir ./ipynb
 fi
 
-echo "Searching for the MYREADME.md file in the local directory: "
+while true 
+do
+  clear
+  echo "Searching for MarkDown files in the local directory: "
+  COUNT=0
+  for n in *.md
+  do 
+    MCOUNT=$((COUNT+1))
+    F+=( "$n" )
+    echo "    ${MCOUNT}. ${F[$COUNT]}"
+    ((COUNT++))
+  done
 
-ls
+  echo -n "Select a file to be converted: "
+  read ANS
+  if [ -z "$ANS" ]; then ANS="2020";fi
 
-echo "The script found the file and it will start the conversion procedure in a while. Please Standby! "
+  ((ANS--))
+  FILE_NAME="${F[$ANS]}"
+  if [ ! -z "${FILE_NAME}" ]
+  then
+    break
+  fi 
+done
 
-# Here, the program will print a "draft" menu inspired by my colleague @nkanagno (https://github.com/nkanagno) which I thank him.
+while true
+do
+  clear
+  echo -n "Select which output you wish the .md file to be converted into:
+  a) .pdf
+  b) .html
+  c) .txt
+  d) .docx
+  e) .odt
+  f) .ipynb
+or type any other key to exit: "
+  read option_two
 
-echo "Choose the .md file you wish to be converted into various formats:
-     a) MYREADME.md"
-read option_one
+  if [ "$option_two" = "b" ];
+  then
+    echo "Initiating the conversion from .md to .html file. Please Standby!"
+    pandoc -s "${FILE_NAME}" --metadata title="README" -o html/"${FILE_NAME/.md/}".html
+    echo "The convertion was a success, you may open the .html file!"
+    echo
+    echo -n "Press ENTER to continue..."
+    read
+  elif [ "$option_two" = "a" ];
+  then
+    echo "Initiating the conversion from .md to .pdf file. Please Standby!"
+    pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="DejaVuSansMono" \
+      --variable sansfont="DejaVuSansMono" --variable monofont="DejaVuSansMono" \
+      --variable fontsize=12pt --variable version=2.0 "${FILE_NAME}" \
+      --pdf-engine=xelatex --toc -o pdf/"${FILE_NAME/.md/}".pdf
+          echo "The conversion was a success, you may open the .pdf file!"
+          echo
+          echo -n "Press ENTER to continue..."
+          read
+        elif [ "$option_two" = "c" ];
+        then
+          echo "Initiating the conversion from .md to .txt file. Please Standby!"
+          pandoc -f markdown -t plain "${FILE_NAME}" -o txt/"${FILE_NAME/.md/}".txt
+          echo "The conversion was a success, you may open the .txt file!"
+          echo
+          echo -n "Press ENTER to continue..."
+          read
+        elif [ "$option_two" = "d" ];
+        then
+          echo "Initiating the conversion from .md to .docx file. Please Standby!"
+          pandoc "${FILE_NAME}" -f markdown -t docx -o docx/"${FILE_NAME/.md/}".docx
+          echo "The conversion was a success, you may open the .docx file!"
+          echo
+          echo -n "Press ENTER to continue..."
+          read
+        elif [ "$option_two" = "e" ];
+        then
+          echo "Initiating the conversion from .md to .odt file. Please Standby!"
+          pandoc "${FILE_NAME}" -o odt/"${FILE_NAME/.md/}".odt
+          echo "The conversion was a success, you may open the .odt file!"
+          echo
+          echo -n "Press ENTER to continue..."
+          read
+        elif [ "$option_two" = "f" ];
+        then
+          echo "Initiating the conversion from .md to .ipynb file. Please Standby!"
+          pandoc "${FILE_NAME}" -o ipynb/"${FILE_NAME/.md/}".ipynb
+          echo "The conversion was a success, you may open the .ipynb file!"
+          echo
+          echo -n "Press ENTER to continue..."
+          read
+        else
+          break
+  fi
+done
 
-
-if [ "$option_one" = "a" ];
-then
-
-echo "Select which output you wish the .md file to be converted into:
-a) .pdf
-b) .html
-c) .txt
-d) .docx
-e) .odt
-f) .ipynb"
-read option_two
-
-    if [ "$option_two" = "b" ];
-    then
-   	echo "Initiating the conversion from .md to .html file. Please Standby!"
-        pandoc -s MYREADME.md --metadata title="README" -o MYREADME.html
-        echo "The convertion was a success, you may open the .html file!"
-    elif [ "$option_two" = "a" ];
-    then
-        echo "Initiating the conversion from .md to .pdf file. Please Standby!"
-        pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="DejaVuSansMono" --variable sansfont="DejaVuSansMono" --variable monofont="DejaVuSansMono" --variable fontsize=12pt --variable version=2.0 MYREADME.md  --pdf-engine=xelatex --toc -o MYREADME.pdf
-        echo "The conversion was a success, you may open the .pdf file!"
-    elif [ "$option_two" = "c" ];
-    then
-        echo "Initiating the conversion from .md to .txt file. Please Standby!"
-        pandoc -f markdown -t plain MYREADME.md -o MYREADME.txt
-        echo "The conversion was a success, you may open the .txt file!"
-    elif [ "$option_two" = "d" ];
-    then
-       echo "Initiating the conversion from .md to .docx file. Please Standby!"
-       pandoc -o MYREADME.docx -f markdown -t docx MYREADME.md
-       echo "The conversion was a success, you may open the .docx file!"
-    elif [ "$option_two" = "e" ];
-    then
-       echo "Initiating the conversion from .md to .odt file. Please Standby!"
-       pandoc MYREADME.md -o MYREADME.odt
-       echo "The conversion was a success, you may open the .odt file!"
-    else
-       echo "Initiating the conversion from .md to .ipynb file. Please Standby!"
-       pandoc MYREADME.md -o MYREPORT.ipynb
-       echo "The conversion was a success, you may open the .ipynb file!"
-    fi
-fi
-
+clear
 echo "Thank you for using Spiritbeat! If you encountered problems, 
 please don't hesitate to contact me!"
 
