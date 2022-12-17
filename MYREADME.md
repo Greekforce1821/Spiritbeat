@@ -363,7 +363,7 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
   
 Στο παραπάνω βήμα, απλά, πρόσθεσα κάτι τελευταίες σημειώσεις στο README.md αρχείο, σχετικά με τι prerequisites πρέπει να έχει ο χρήστης εγκατεστημένα στο σύστημά του προκειμένου να τρέξει το script που δημιούργησα.
   
-## Update: <ins> Added Support For (.odt), (.txt), (.ipynb) & (.docx) </ins>
+## Update #1: <ins> Added Support For (.odt), (.txt), (.ipynb) & (.docx) </ins>
 
 Στο παραπάνω πρόγραμμα, υπήρχαν περιθώρια βελτίωσης τα οποία τα αξιοποίησα προσθέτοντας υποστήριξη για μετατροπή αρχείων `markdown` (.md) σε αρχεία όπως: (.odt), (.txt), (.ipynb) και (.docx). Παρακάτω παραθέτω την μετατροπή του (.md) αρχείο μου (προσωπική αναφορά εργασίας για το HCI) στις παραπάνω μορφές αρχείων.
 
@@ -399,6 +399,18 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
   
 ![Screenshot_2022-11-28_02-07-03](https://user-images.githubusercontent.com/33377581/204167251-b8f5d614-987b-4142-8ea4-84eba0cac384.jpg)
 
+## Update #2: <ins> Added Support For Multiple Conversion From A Single (.md) File: </ins>
+  
+Σύμφωνα με το πρώτο update του [`Spiritbeat`](https://github.com/Greekforce1821/Spiritbeat) υπήρχαν και άλλα περιθώρια βελτίωσης. Προκειμένου να εμπλουτίσω το script που δημιούργησα για να μου διευκολύνει τις μετατροπές ενός αρχείου σε πολλές μορφές, πρόσθεσα την επιλογή να μετατρέπει το (.md) αρχείο σε όλα τα παραπάνω <ins> χωρίς </ins> να χρειάζεται ο χρήστης να επιλέγει ένα-ένα την κάθε επιλογή. Γίνονται όλα αυτόματα, μαζί με την δημιουργία των φακέλων και αντίστοιχα τα converted αρχεία, εισάγονται αυτόματα στο κάθε φάκελο όπου ανήκει χωρίς ο χρήστης να τα μετακινεί ένα-ένα στους φακέλους. Επιπλέον, κάθε φορά που ο χρήστης θέλει να μετατρέψει ένα αρχείο, πλέον δεν χρειάζεται να κλείνει το τερματικό και να ξανατρέχει το script από την αρχή. Αντίθετα, πατώντας οποιοδήποτε κουμπί, το menu επιστρέφει στην αρχική σελίδα εκτυπώνοντας ξανά το μενού των μετατροπών.
+  
+## <ins> Converting a markdown (.md) file into every single format supported by the Spiritbeat: </ins>
+
+[![asciicast](https://asciinema.org/a/546337.svg)](https://asciinema.org/a/546337)
+
+## <ins> Overview Of The Final Program Including The Latest Updates: </ins>
+
+[![asciicast](https://asciinema.org/a/546338.svg)](https://asciinema.org/a/546338)
+
 # Πίνακας των διάφορων link περί εργασίας:
 
 | Links | Platform | Extension |
@@ -419,7 +431,9 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
 | [TXT Conversion Using Terminal](https://asciinema.org/a/540844) | Asciinema | .cast |
 | [IPYNB Conversion Using Terminal](https://asciinema.org/a/540847) | Asciinema | .cast |
 | [DOCX Conversion Using Terminal](https://asciinema.org/a/540845) | Asciinema | .cast |
- 
+| [Converted MarkDown File Into Various Format With The First Try](https://asciinema.org/a/546337) | Asciinema | .cast |
+| [Overview Of The Program With The Final Changes](https://asciinema.org/a/546338) | Asciinema | .cast |
+  
 # Παραδοτέο 9ο: Συμμετοχικό περιεχόμενο Β2.
 
 Στο συγκεκριμένο παραδοτέο, έπρεπε να δημιουργήσουμε μια νέα βιογραφία σχετική με τα παραδοτέα [Α1](https://github.com/courses-ionio/help/discussions/1185) και [Α2](https://github.com/courses-ionio/help/discussions/1461) σύμφωνα με τις [οδηγίες](https://courses-ionio.github.io/help/social/) του μαθήματος και να τα ανεβάσουμε στην [ιστοσελίδα](https://greekforce1821-site.netlify.app/) μας. Συγκεκριμένα, ασχολήθηκα με την βιογραφία: `Guido Van Rossum`, ο οποίος είναι ο δημιουργός της υψηλού επιπέδου γλώσσας προγραμματισμού `Python`. Παρακάτω επισυνάπτω την φωτογραφία από το bio.

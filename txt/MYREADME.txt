@@ -735,7 +735,7 @@ README.md αρχείο, σχετικά με τι prerequisites πρέπει να
 εγκατεστημένα στο σύστημά του προκειμένου να τρέξει το script που
 δημιούργησα.
 
-Update:  Added Support For (.odt), (.txt), (.ipynb) & (.docx) 
+Update #1:  Added Support For (.odt), (.txt), (.ipynb) & (.docx) 
 
 Στο παραπάνω πρόγραμμα, υπήρχαν περιθώρια βελτίωσης τα οποία τα
 αξιοποίησα προσθέτοντας υποστήριξη για μετατροπή αρχείων markdown (.md)
@@ -774,6 +774,29 @@ HCI) στις παραπάνω μορφές αρχείων.
  DOCX (.docx) Results: 
 
 [Screenshot_2022-11-28_02-07-03]
+
+Update #2:  Added Support For Multiple Conversion From A Single (.md) File: 
+
+Σύμφωνα με το πρώτο update του Spiritbeat υπήρχαν και άλλα περιθώρια
+βελτίωσης. Προκειμένου να εμπλουτίσω το script που δημιούργησα για να
+μου διευκολύνει τις μετατροπές ενός αρχείου σε πολλές μορφές, πρόσθεσα
+την επιλογή να μετατρέπει το (.md) αρχείο σε όλα τα παραπάνω χωρίς να
+χρειάζεται ο χρήστης να επιλέγει ένα-ένα την κάθε επιλογή. Γίνονται όλα
+αυτόματα, μαζί με την δημιουργία των φακέλων και αντίστοιχα τα converted
+αρχεία, εισάγονται αυτόματα στο κάθε φάκελο όπου ανήκει χωρίς ο χρήστης
+να τα μετακινεί ένα-ένα στους φακέλους. Επιπλέον, κάθε φορά που ο
+χρήστης θέλει να μετατρέψει ένα αρχείο, πλέον δεν χρειάζεται να κλείνει
+το τερματικό και να ξανατρέχει το script από την αρχή. Αντίθετα,
+πατώντας οποιοδήποτε κουμπί, το menu επιστρέφει στην αρχική σελίδα
+εκτυπώνοντας ξανά το μενού των μετατροπών.
+
+ Converting a markdown (.md) file into every single format supported by the Spiritbeat: 
+
+[asciicast]
+
+ Overview Of The Final Program Including The Latest Updates: 
+
+[asciicast]
 
 Πίνακας των διάφορων link περί εργασίας:
 
@@ -819,6 +842,13 @@ HCI) στις παραπάνω μορφές αρχείων.
 
   DOCX Conversion Using   Asciinema               .cast
   Terminal                                        
+
+  Converted MarkDown File Asciinema               .cast
+  Into Various Format                             
+  With The First Try                              
+
+  Overview Of The Program Asciinema               .cast
+  With The Final Changes                          
   -----------------------------------------------------------------------
 
 Παραδοτέο 9ο: Συμμετοχικό περιεχόμενο Β2.
