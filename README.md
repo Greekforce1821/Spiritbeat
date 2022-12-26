@@ -1,6 +1,6 @@
 # Spiritbeat
 
-A Shell Script to convert a markdown (.md) file into (.pdf) or (.html)
+A Shell Script to convert a markdown (.md) file into (.pdf) or (.html) or other various formats.
 
 ---
 
