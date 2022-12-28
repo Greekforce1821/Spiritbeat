@@ -34,7 +34,7 @@ Netlify Personal Site Deploy: [Site](https://greekforce1821-site.netlify.app/)
 | 9 | Συμμετοχικό περιεχόμενο B2 | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1817), [Link of Biography](https://greekforce1821-site.netlify.app//biography/guido-van-rossum/) & [Site Link](https://greekforce1821-site.netlify.app/)   | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 10 | Άσκηση γραμμής εντολών | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1880) & [Asciinema Link](https://asciinema.org/a/544020) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 | 11 | Κατασκευή του βιβλίου Β | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1960), [Case-Study Book & Bio Book Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20bio.jpg), [Case-Study Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/python%20%26%20odroid%20cs.jpg), [Biography Photo](https://github.com/Greekforce1821/kallipos/blob/master/Picture%20of%20my%20personal%20contribution%20within%20the%20book/van-rossum-bio.jpg) & [.epub File](https://github.com/Greekforce1821/kallipos/tree/master/epub) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
-| 12 | Τελική αναφορά* | | |
+| 12 | Τελική αναφορά* | [Link Συζήτησης](https://github.com/courses-ionio/help/discussions/1981) | Επιτυχής ολοκλήρωση του παραδοτέου εντός προθεσμίας ☑️ (100% Success) |
 
 # Παραδοτέο 1ο / Εισαγωγή:
 
@@ -519,3 +519,24 @@ v) Τέλος, να αποκτήσω μέσα από τα παραπάνω γν�
 ---
 
 # Παραδοτέο 12: Τελική Αναφορά
+
+Και κάπως έτσι, έφτασε στο τέλος της άλλη μια εργασία για το πανεπιστήμιο. Τελειώνοντας λοιπόν όλα τα παραδοτέα που μας ζητήθηκαν, αποκόμισα γνώσεις όπως τον χειρισμό του Github, την διάδραση του ανθρώπου-υπολογιστή μέσω της κατασκευής του ιστότοπου του μαθήματος, την προσθήκη χρήσιμων πληροφοριών για το μάθημα, την κατασκευή του βιβλίου μέσω διάφορων προγραμμάτων τα οποία δεν γνώριζα όπως το: `pandoc` & `latex`, την εγκατάσταση ενός άγνωστου για εμένα ανοιχτού κώδικα λειτουργικού συστήματος: τα `Arch Linux`, καθώς και την συγγραφή προγράμματος και την εκτέλεση εντολών από την γραμμή εντολών. Τέλος, θα ήθελα να προσθέσω πως με την παρακολούθηση των βίντεο σχετικά με την διάδραση ανθρώπου - υπολογιστή αποκόμισα και εμβάθυνα σε πληροφορίες σχετικές με το μάθημα. Συγκεκριμένα, παρακολουθώντας ομιλίες από τους κολοσσούς της επιστήμης της πληροφορίας και της πληροφορικής γνώρισα τον κάθε ένα ξεχωριστά καθώς και το έργο το οποίο είχε αναλάβει να υλοποιήσει για να φτάσουμε στο τελικό σημείο στο οποίο βρίσκεται σήμερα ο υπολογιστής. Ένα εργαλείο το οποίο έχει να προσφέρει πολλά στην ανθρωπότητα.
+  
+# Extras: Ομαδικότητα / Συνεργατικότητα:
+
+Παρακάτω, θα βρείτε συννημένο τον πίνακα ομαδικότητας / συνεργατικότητας στον οποίο παραθέτω μέσω της περιοχής συζητήσεων τις διάφορες ερωτήσεις, απαντήσεις και παρατηρήσεις που έκανα/εξέλαβα από και προς τους/τις συμφοιτητές/συμφοιτήτριές μου.
+  
+| Ερωτήσεις στην περιοχή συζητήσεων help του Github | Απαντήσεις στην περιοχή συζητήσεων help του Github | Παρατηρήσεις / Συνεισφορές στην περιοχή συζητήσεων help του Github |
+| --- | --- | --- |
+| Ερώτηση #1: [Question #1 Link](https://github.com/courses-ionio/help/discussions/1682) | Απάντηση #1: [Answer Link #1](https://github.com/courses-ionio/help/discussions/1939#discussioncomment-4373874) | Παρατήρηση / Συνεισφορά #1: [Guide για την εγκατάσταση των Arch σε USB Stick](https://github.com/courses-ionio/help/discussions/1027) |
+| Ερώτηση #2: NULL | Απάντηση #2: [Answer Link #2](https://github.com/courses-ionio/help/discussions/1069#discussioncomment-3887459) | Παρατήρηση / Συνεισφορά #2: [Contribution Link #2](https://github.com/courses-ionio/help/discussions/1936#discussioncomment-4373894)  |
+| Eρώτηση #3: NULL | Απάντηση #3: [Answer Link #3](https://github.com/courses-ionio/help/discussions/1121#discussioncomment-3891159) | Παρατήρηση / Συνεισφορά #3: [Contribution Link #3](https://github.com/courses-ionio/help/discussions/1929#discussioncomment-4373928) |
+| Ερώτηση #4: NULL | Απάντηση #4: [Answer Link #4](https://github.com/courses-ionio/help/discussions/1424#discussioncomment-4057760) | Παρατήρηση / Συνεισφορά #4: [Contribution Link #4](https://github.com/courses-ionio/help/discussions/1935#discussioncomment-4373909) |
+| Ερώτηση #5: NULL | Απάντηση #5: [Answer Link #5](https://github.com/courses-ionio/help/discussions/1170#discussioncomment-3933383) | Παρατήρηση / Συνεισφορά #5: [Contribution Link #5](https://github.com/courses-ionio/help/discussions/1934#discussioncomment-4373919) |
+| Ερώτηση #6: NULL | Απάντηση #6: [Answer Link #6](https://github.com/courses-ionio/help/discussions/1356#discussioncomment-4030328) | Παρατήρηση / Συνεισφορά #6: [Contribution Link #6](https://github.com/courses-ionio/help/discussions/1803#discussioncomment-4270927) |
+| Ερώτηση #7: NULL | Απάντηση #7: NULL | Παρατήρηση / Συνεισφορά #7: [Contribution Link #7](https://github.com/courses-ionio/help/discussions/1799#discussioncomment-4267668) | 
+| Ερώτηση #8: ΝULL | Απάντηση #8: NULL | Παρατήρηση / Συνεισφορά #8: [Contribution Link #8](https://github.com/courses-ionio/help/discussions/1430#discussioncomment-4077049) |
+| Ερώτηση #9: ΝULL | Απάντηση #9: NULL | Παρατήρηση / Συνεισφορά #9: [Contribution Link #9](https://github.com/courses-ionio/help/discussions/1340#discussioncomment-4013098) |
+| Ερώτηση #10: ΝULL | Απάντηση #10: NULL | Παρατήρηση / Συνεισφορά #10: [Contribution Link #10](https://github.com/courses-ionio/help/discussions/1049#discussioncomment-3884814) |
+| Ερώτηση #11: ΝULL | Απάντηση #11: NULL | Παρατήρηση / Συνεισφορά #11: [Contribution Link #11](https://github.com/courses-ionio/help/discussions/833#discussioncomment-3815681)  |
+| Ερώτηση #12: ΝULL | Απάντηση #12: NULL | Παρατήρηση / Συνεισφορά #12: [Contribution Link #12](https://github.com/courses-ionio/help/discussions/1982#discussioncomment-4510034) |
