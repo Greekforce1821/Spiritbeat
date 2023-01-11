@@ -20,6 +20,10 @@ Netlify Personal Site Deploy: Site
 
 Αποθετήριο ιστοσελίδας οργανισμού: Pibook Organization Site Repository
 
+Προφίλ στο Actively Learn: Spyros Kokotos inf2021098
+
+Προφίλ στο Edpuzzle: Spyros Kokotos inf2021098
+
   -----------------------------------------------------------------------
   Εβδομάδα          Όλα τα παραδοτέα  Σύνδεσμος στην    Αυτοαξιολόγηση
                     βρίσκονται στην   εβδομαδιαία       σύμφωνα με τα
@@ -83,7 +87,7 @@ Netlify Personal Site Deploy: Site
                                       Contribution      προθεσμίας ☑️
                                       Photo, .EPUB      (100% Success)
                                       file, .PDF file,  
-                                      Contribution      
+                                      Modification      
                                       Filter            
 
   7                 Συμμετοχικό       Link Συζήτησης,   Επιτυχής
@@ -122,9 +126,9 @@ Netlify Personal Site Deploy: Site
                                       Biography Photo & (100% Success)
                                       .epub File        
 
-  12                Τελική αναφορά*   Link Συζήτησης    Επιτυχής
-                                                        ολοκλήρωση του
-                                                        παραδοτέου εντός
+  12                Τελική αναφορά*   Link Συζήτησης &  Επιτυχής
+                                      Final Pull        ολοκλήρωση του
+                                      Request Link      παραδοτέου εντός
                                                         προθεσμίας ☑️
                                                         (100% Success)
   -----------------------------------------------------------------------
@@ -526,7 +530,7 @@ Bήμα #4: Cloning the Submodules from the Main Repository and Setting them. Pa
 
 [Screenshot_2022-11-14_16-41-36]
 
-Βήμα #6:  Creating the Contribution Filter (contribution.lua) & Editing the Make File (make-latex.sh)
+Βήμα #6:  Creating the Modification Filter (modification.lua) & Editing the Make File (make-latex.sh)
 
 Στο παραπάνω βήμα, δημιούργησα το φίλτρο μου προκειμένου να εισάγω το
 contribution μου στο βιβλίο και αντίστοιχα, πρόσθεσα στο αρχείο (.sh) το
@@ -1061,4 +1065,35 @@ Extras: Ομαδικότητα / Συνεργατικότητα:
   Ερώτηση #12: ΝULL       Απάντηση #12: NULL      Παρατήρηση / Συνεισφορά
                                                   #12: Contribution Link
                                                   #12
+
+  Eρώτηση #13: ΝULL       Απάντηση #13: NULL      Παρατήρηση / Συνεισφορά
+                                                  #13: Contribution Link
+                                                  #13
+
+  Ερώτηση #14: NULL       Απάντηση #14: NULL      Παρατήρηση / Συνεισφορά
+                                                  #14: Contribution Link
+                                                  #14
+
+  Ερώτηση #15: NULL       Απάντηση #15: NULL      Παρατήρηση / Συνεισφορά
+                                                  #15: Contribution Link
+                                                  #15
+
+  Ερώτηση #16: NULL       Απάντηση #16: NULL      Παρατήρηση / Συνεισφορά
+                                                  #16: Contribution Link
+                                                  #16
+
+  Ερώτηση #17: NULL       Απάντηση #17: NULL      Παρατήρηση / Συνεισφορά
+                                                  #17: Contribution Link
+                                                  #17
   -----------------------------------------------------------------------
+
+Extras #2:  Παράθεση Τελικού Συνδέσμου Ενσωμάτωσης Στο Αρχικό Αποθετήριο 
+
+Παρακάτω, παραθέτω το link από το τελικό αίτημα ενσωμάτωσης στο αρχικό
+αποθετήριο του μαθήματος.
+
+Final Pull Request Link
+
+Καλή Χρονιά, Χρόνια Πολλά με υγεία!
+
+Ευτυχισμένο το 2023 !
